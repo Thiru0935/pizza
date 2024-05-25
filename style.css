@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.mainheader{
+    height: auto;
+    display: flex;
+}
+.mainheader ul{
+    color: aliceblue;
+    margin-left: 1100px;
+    display: flex;
+    list-style: none;
+}
+.mainheader li{
+    font-size: 30px;
+    border-radius: 10px;
+    margin-right: 20px;
+}
+.mainheader button{
+    background-color: rgb(255, 213, 0);
+    cursor: pointer;
+    border-radius: 20px;
+    margin-right: 10px;
+    font-size: 20px;
+    width: 100px;
+    height: 30px;
+}
+.varities{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    margin-top: 60px;
+    color: rgb(255, 255, 255);
+}
+.varities img{
+    width: 300px;
+    height: 300px;
+    border-radius: 20px;
+    background-color: rgb(255, 140, 0);
+    padding: 2px;
+    margin-right: 30px;
+    
+}
+body{
+    background-image: url("slice-of-pizza-falling-into-the-air-on-a-dark-background-photo.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.mainheader img{
+margin-top: 30px;
+    width: 200px;
+    height: 60px;    
+}
+.mainheader ul,button,#searchbar{
+    margin-top: 50px;
+}
+a{
+    color: aliceblue;
+    text-decoration: none;
+}
+a:hover{
+    color: chocolate;
+}
